@@ -1,3 +1,8 @@
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
   /* Définition des constantes */
  :root {
      --gap: 10px;
@@ -21,7 +26,7 @@
      /* 100% de la hauteur du viewport pour assurer la réactivité verticale */
      gap: var(--gap);
      padding: var(--gap);
-     font-family: 'Roboto', sans-serif;
+     
 }
 
      .favicon {
@@ -344,4 +349,29 @@ color: white;
         background-size: cover; /* Adjust how the image fits */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Prevent image repetition */
+
+    
     }
+
+
+    .titrecentre{
+
+color:white
+
+
+
+    }
+
+    .photo-profil img {
+        margin-top: 34px;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    border: 5px solid white;
+
+   
+
+    
+    background-size: cover;
+    background-position: center;
+}
