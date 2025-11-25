@@ -16,7 +16,7 @@
      /* disposition verticale des sections header, main et footer */
      display: flex;
      flex-direction: column;
-     height: 100vh;
+     height: auto;
       background-color: black;
      /* 100% de la hauteur du viewport pour assurer la réactivité verticale */
      gap: var(--gap);
@@ -31,6 +31,7 @@
 
      .header,
      .footer {
+        background-color: black;
          font-size: 1.5em;
          font-weight: bolder;
          display: flex;
@@ -76,6 +77,7 @@ color: white;
 
          /* Alignement horizontal des éléments enfants */
          display: flex;
+         
          flex-direction: row;
          gap: var(--gap);
           
@@ -254,8 +256,7 @@ color: white;
 }
 
 .center {
-  display: flex;
-  flex-direction: column;
+  
   justify-content: center;
   gap: 20px;
   
@@ -279,7 +280,7 @@ color: white;
 }
 .box img{
  width: 100%;
-   height: auto;
+   height: 100%;
    background-size: cover;
   object-fit: cover;
    background-repeat: no-repeat;
@@ -306,8 +307,8 @@ color: white;
 
 
 .yellow { 
-  width: 500px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
  background: black;
    
      border: 1px solid white;
